@@ -28,38 +28,39 @@ class DefaultRuleProvider implements RuleProviderInterface
      * @var array
      */
     protected $rules = /*INSERT_START*/array (
-  'arabic' => 
+  'arabic' =>
   array (
-    'أ' => 'a',
-    'ب' => 'b',
-    'ت' => 't',
-    'ث' => 'th',
-    'ج' => 'g',
-    'ح' => 'h',
-    'خ' => 'kh',
-    'د' => 'd',
-    'ذ' => 'th',
-    'ر' => 'r',
-    'ز' => 'z',
-    'س' => 's',
-    'ش' => 'sh',
-    'ص' => 's',
-    'ض' => 'd',
-    'ط' => 't',
-    'ظ' => 'th',
-    'ع' => 'aa',
-    'غ' => 'gh',
-    'ف' => 'f',
-    'ق' => 'k',
-    'ك' => 'k',
-    'ل' => 'l',
-    'م' => 'm',
-    'ن' => 'n',
-    'ه' => 'h',
-    'و' => 'o',
-    'ي' => 'y',
+      /* Arabic */
+      'أ' => 'أ',
+      'ب' => 'ب',
+      'ت' => 'ت',
+      'ث' => 'ث',
+      'ج' => 'ج',
+      'ح' => 'ح',
+      'خ' => 'خ',
+      'د' => 'د',
+      'ذ' => 'ذ',
+      'ر' => 'ر',
+      'ز' => 'ز',
+      'س' => 'س',
+      'ش' => 'ش',
+      'ص' => 'ص',
+      'ض' => 'ض',
+      'ط' => 'ط',
+      'ظ' => 'ظ',
+      'ع' => 'ع',
+      'غ' => 'غ',
+      'ف' => 'ف',
+      'ق' => 'ق',
+      'ك' => 'ك',
+      'ل' => 'ل',
+      'م' => 'م',
+      'ن' => 'ن',
+      'ه' => 'ه',
+      'و' => 'و',
+      'ي' => 'ي',
   ),
-  'armenian' => 
+  'armenian' =>
   array (
     'Ա' => 'A',
     'Բ' => 'B',
@@ -139,7 +140,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'օ' => 'o',
     'ֆ' => 'f',
   ),
-  'austrian' => 
+  'austrian' =>
   array (
     'Ä' => 'AE',
     'Ö' => 'OE',
@@ -149,7 +150,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ö' => 'oe',
     'ü' => 'ue',
   ),
-  'azerbaijani' => 
+  'azerbaijani' =>
   array (
     'Ə' => 'E',
     'Ç' => 'C',
@@ -166,7 +167,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ö' => 'o',
     'ü' => 'u',
   ),
-  'bulgarian' => 
+  'bulgarian' =>
   array (
     'А' => 'A',
     'Б' => 'B',
@@ -232,7 +233,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'йо' => 'iо',
     'ьо' => 'io',
   ),
-  'burmese' => 
+  'burmese' =>
   array (
     'က' => 'k',
     'ခ' => 'kh',
@@ -349,7 +350,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ိံ' => 'ein',
     'ုံ' => 'on',
   ),
-  'chinese' => 
+  'chinese' =>
   array (
     '腌' => 'yan',
     '嗄' => 'a',
@@ -7285,7 +7286,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     '螵' => 'piao',
     '蟛' => 'peng',
   ),
-  'croatian' => 
+  'croatian' =>
   array (
     'Č' => 'C',
     'Ć' => 'C',
@@ -7298,7 +7299,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'š' => 's',
     'đ' => 'dj',
   ),
-  'czech' => 
+  'czech' =>
   array (
     'Č' => 'C',
     'Ď' => 'D',
@@ -7319,7 +7320,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ů' => 'u',
     'ž' => 'z',
   ),
-  'danish' => 
+  'danish' =>
   array (
     'Æ' => 'Ae',
     'æ' => 'ae',
@@ -7330,7 +7331,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'É' => 'E',
     'é' => 'e',
   ),
-  'default' => 
+  'default' =>
   array (
     '°' => '0',
     '¹' => '1',
@@ -7514,7 +7515,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ÿ' => 'y',
     'ŷ' => 'y',
   ),
-  'esperanto' => 
+  'esperanto' =>
   array (
     'ĉ' => 'cx',
     'ĝ' => 'gx',
@@ -7529,7 +7530,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'Ŝ' => 'SX',
     'Ŭ' => 'UX',
   ),
-  'estonian' => 
+  'estonian' =>
   array (
     'Š' => 'S',
     'Ž' => 'Z',
@@ -7544,14 +7545,14 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ö' => 'o',
     'ü' => 'u',
   ),
-  'finnish' => 
+  'finnish' =>
   array (
     'Ä' => 'A',
     'Ö' => 'O',
     'ä' => 'a',
     'ö' => 'o',
   ),
-  'french' => 
+  'french' =>
   array (
     'À' => 'A',
     'Â' => 'A',
@@ -7586,7 +7587,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ÿ' => 'y',
     'Ÿ' => 'Y',
   ),
-  'georgian' => 
+  'georgian' =>
   array (
     'ა' => 'a',
     'ბ' => 'b',
@@ -7622,7 +7623,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ჯ' => 'j',
     'ჰ' => 'h',
   ),
-  'german' => 
+  'german' =>
   array (
     'Ä' => 'AE',
     'Ö' => 'OE',
@@ -7632,7 +7633,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ö' => 'oe',
     'ü' => 'ue',
   ),
-  'greek' => 
+  'greek' =>
   array (
     'ΑΥ' => 'AU',
     'Αυ' => 'Au',
@@ -7744,7 +7745,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ϐ' => 'v',
     'ϑ' => 'th',
   ),
-  'hindi' => 
+  'hindi' =>
   array (
     'अ' => 'a',
     'आ' => 'aa',
@@ -7811,7 +7812,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'य़' => 'Yi',
     'ज़' => 'Za',
   ),
-  'hungarian' => 
+  'hungarian' =>
   array (
     'Á' => 'a',
     'É' => 'e',
@@ -7832,7 +7833,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ü' => 'u',
     'ű' => 'u',
   ),
-  'italian' => 
+  'italian' =>
   array (
     'À' => 'a',
     'È' => 'e',
@@ -7846,7 +7847,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ò' => 'o',
     'ù' => 'u',
   ),
-  'latvian' => 
+  'latvian' =>
   array (
     'Ā' => 'A',
     'Ē' => 'E',
@@ -7865,7 +7866,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ņ' => 'n',
     'ū' => 'u',
   ),
-  'lithuanian' => 
+  'lithuanian' =>
   array (
     'Ą' => 'A',
     'Č' => 'C',
@@ -7886,7 +7887,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ū' => 'u',
     'ž' => 'z',
   ),
-  'macedonian' => 
+  'macedonian' =>
   array (
     'А' => 'A',
     'Б' => 'B',
@@ -7951,7 +7952,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'џ' => 'dj',
     'ш' => 'sh',
   ),
-  'norwegian' => 
+  'norwegian' =>
   array (
     'Æ' => 'AE',
     'Ø' => 'OE',
@@ -7960,7 +7961,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ø' => 'oe',
     'å' => 'aa',
   ),
-  'persian' => 
+  'persian' =>
   array (
     'ا' => 'a',
     'ب' => 'b',
@@ -7995,7 +7996,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ه' => 'h',
     'ی' => 'y',
   ),
-  'polish' => 
+  'polish' =>
   array (
     'Ą' => 'A',
     'Ć' => 'C',
@@ -8016,7 +8017,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ź' => 'z',
     'ż' => 'z',
   ),
-  'portuguese-brazil' => 
+  'portuguese-brazil' =>
   array (
     '°' => '0',
     '¹' => '1',
@@ -8200,7 +8201,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ÿ' => 'y',
     'ŷ' => 'y',
   ),
-  'romanian' => 
+  'romanian' =>
   array (
     'ă' => 'a',
     'î' => 'i',
@@ -8217,7 +8218,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'Ţ' => 'T',
     'Ț' => 'T',
   ),
-  'russian' => 
+  'russian' =>
   array (
     'Ъ' => '',
     'Ь' => '',
@@ -8286,7 +8287,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'з' => 'z',
     'ж' => 'zh',
   ),
-  'serbian' => 
+  'serbian' =>
   array (
     'а' => 'a',
     'б' => 'b',
@@ -8396,7 +8397,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     "ý" => "y",
     "ž" => "z",
   ),
-  'swedish' => 
+  'swedish' =>
   array (
     'Ä' => 'A',
     'Å' => 'a',
@@ -8405,7 +8406,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'å' => 'a',
     'ö' => 'o',
   ),
-  'turkish' => 
+  'turkish' =>
   array (
     'Ç' => 'C',
     'Ğ' => 'G',
@@ -8420,7 +8421,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ö' => 'o',
     'ü' => 'u',
   ),
-  'turkmen' => 
+  'turkmen' =>
   array (
     'Ç' => 'C',
     'Ä' => 'A',
@@ -8439,7 +8440,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ü' => 'u',
     'ý' => 'y',
   ),
-  'ukrainian' => 
+  'ukrainian' =>
   array (
     'Ґ' => 'G',
     'І' => 'I',
@@ -8450,7 +8451,7 @@ class DefaultRuleProvider implements RuleProviderInterface
     'ї' => 'ji',
     'є' => 'ye',
   ),
-  'vietnamese' => 
+  'vietnamese' =>
   array (
     'ạ' => 'a',
     'ả' => 'a',
